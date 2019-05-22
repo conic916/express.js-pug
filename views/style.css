@@ -1,0 +1,36 @@
+body {
+    background: rgb(34, 34, 34);
+    color: goldenrod;
+    text-align: center;
+}
+
+input {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    margin: auto;
+    border: 1px solid #ccc;
+    text-align: justify;
+}
+
+button {
+    background-color: #4CAF50;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    font-size: 14px;
+    color: rgb(243, 242, 242);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 15px;
+}

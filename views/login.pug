@@ -1,0 +1,16 @@
+doctype html
+html    
+    head
+        style
+            include style.css
+        title=title
+    body
+    h1 Sign in please
+    h2 You must log in! 
+    
+    form(action=url)
+      p.first name : 
+        input(type='text', name='first_name')
+      p.last last name : 
+        input(type='text', name='last_name')
+        button(type='submit') Sign in
